@@ -66,7 +66,7 @@ For now, this is a Project to call DELETE and help with a specific Customer use 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/gacerioni/harness_instanceStats_gql_to_csv.git
+   git clone https://github.com/gacerioni/harness_utils_cg_universal_api_caller.git
    cd harness_instanceStats_gql_to_csv
    ```
 2. Install the project dependecies (very simple stuff, meant to deal with requests, json, html)
