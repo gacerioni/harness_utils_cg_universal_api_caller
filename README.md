@@ -14,7 +14,7 @@
     <img src="images/harness_banner.jpeg" alt="Logo">
   </a>
 
-  <h3 align="center">GraphQL Python Labs - by Gabs the CSE</h3>
+  <h3 align="center">Harness CD Current-Gen Universal API Caller - by Gabs the CSE</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
