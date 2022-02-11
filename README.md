@@ -67,7 +67,7 @@ For now, this is a Project to call DELETE and help with a specific Customer use 
 1. Clone the repo
    ```sh
    git clone https://github.com/gacerioni/harness_utils_cg_universal_api_caller.git
-   cd harness_instanceStats_gql_to_csv
+   cd harness_utils_cg_universal_api_caller
    ```
 2. Install the project dependecies (very simple stuff, meant to deal with requests, json, html)
    ```sh
@@ -77,6 +77,7 @@ For now, this is a Project to call DELETE and help with a specific Customer use 
    ```
 3. Export the required variables (Just to avoid Secrets, KMS, Vaults, etc, to keep this project simple)
    ```sh
+   cd ./harness_utils_cg_universal_api_caller
    python(3) main.py -h
    ```
 
