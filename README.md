@@ -43,7 +43,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The main goal of this project is to mantain a trustful source of Python GraphQL queries, to help Harness Customers.
+The main goal of this project is to mantain a trustful source of Python calling Harness APIs. This initial project will evolve to support all RESTful Methods.
+For now, this is a Project to call DELETE and help with a specific Customer use case.
 
 
 <!-- GETTING STARTED -->
@@ -65,7 +66,7 @@ The main goal of this project is to mantain a trustful source of Python GraphQL 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/gabrielcerioni/harness_instanceStats_gql_to_csv.git
+   git clone https://github.com/gacerioni/harness_instanceStats_gql_to_csv.git
    cd harness_instanceStats_gql_to_csv
    ```
 2. Install the project dependecies (very simple stuff, meant to deal with requests, json, html)
@@ -76,21 +77,13 @@ The main goal of this project is to mantain a trustful source of Python GraphQL 
    ```
 3. Export the required variables (Just to avoid Secrets, KMS, Vaults, etc, to keep this project simple)
    ```sh
-   export HARNESS_GRAPHQL_ENDPOINT=https://app.harness.io/gateway/api/graphql?accountId=<your_acc>
-   export HARNESS_GRAPHQL_API_KEY=<YOUR_API_KEY>
-   export HARNESS_GQL_CSV_NAME=<full_csv_path>
-   ```
-
-4. Enjoy ;)
-   ```sh
-   python3 main.py
-   <...>
+   python(3) main.py -h
    ```
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/gabrielcerioni/harness_graphql_labs/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/gacerioni/harness_utils_cg_universal_api_caller/issues) for a list of proposed features (and known issues).
 
 
 
@@ -119,32 +112,27 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Gabriel Cerioni - [@gabs.tar.gz](https://www.instagram.com/gabs.tar.gz/) - gacerioni@gmail.com
 
-Project Link: [https://github.com/gabrielcerioni/harness_instanceStats_gql_to_csv/](https://github.com/gabrielcerioni/harness_instanceStats_gql_to_csv/)
+Project Link: [https://github.com/gacerioni/harness_utils_cg_universal_api_caller/](https://github.com/gacerioni/harness_utils_cg_universal_api_caller/)
 
 <!-- Tech Stack -->
 ## Tech Stack
 
 * [Python](https://www.python.org/)
-* [GraphQL](https://graphql.org/)
 * [Harness](https://harness.io)
-* [Python GQL](https://github.com/graphql-python/gql)
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/gabrielcerioni/harness_graphql_labs.svg?style=for-the-badge
-[contributors-url]: https://github.com/gabrielcerioni/harness_graphql_labs/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/gabrielcerioni/harness_graphql_labs.svg?style=for-the-badge
-[forks-url]: https://github.com/gabrielcerioni/harness_graphql_labs/network/members
-[stars-shield]: https://img.shields.io/github/stars/gabrielcerioni/harness_graphql_labs.svg?style=for-the-badge
-[stars-url]: https://github.com/gabrielcerioni/harness_graphql_labs/stargazers
-[issues-shield]: https://img.shields.io/github/issues/gabrielcerioni/harness_graphql_labs.svg?style=for-the-badge
-[issues-url]: https://github.com/gabrielcerioni/harness_graphql_labs/issues
-[license-shield]: https://img.shields.io/github/license/gabrielcerioni/harness_graphql_labs.svg?style=for-the-badge
-[license-url]: https://github.com/gabrielcerioni/harness_graphql_labs/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/gacerioni/harness_utils_cg_universal_api_caller.svg?style=for-the-badge
+[contributors-url]: https://github.com/gacerioni/harness_utils_cg_universal_api_caller/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/gacerioni/harness_utils_cg_universal_api_caller.svg?style=for-the-badge
+[forks-url]: https://github.com/gacerioni/harness_utils_cg_universal_api_caller/network/members
+[stars-shield]: https://img.shields.io/github/stars/gacerioni/harness_utils_cg_universal_api_caller.svg?style=for-the-badge
+[stars-url]: https://github.com/gacerioni/harness_utils_cg_universal_api_caller/stargazers
+[issues-shield]: https://img.shields.io/github/issues/gacerioni/harness_utils_cg_universal_api_caller.svg?style=for-the-badge
+[issues-url]: https://github.com/gacerioni/harness_utils_cg_universal_api_caller/issues
+[license-shield]: https://img.shields.io/github/license/gacerioni/harness_utils_cg_universal_api_caller.svg?style=for-the-badge
+[license-url]: https://github.com/gacerioni/harness_utils_cg_universal_api_caller/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/gabrielcerioni
-[product-screenshot]: images/gabs_tibia.png
-[api_postman_all]: images/Postman_API_ALL.png
-[api_postman_id]: images/Postman_API_by_id.png
-[api_postman_name]: images/Postman_API_by_name.png
+[linkedin-url]: https://linkedin.com/in/gacerioni
